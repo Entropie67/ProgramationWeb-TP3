@@ -1,0 +1,48 @@
+body{
+    background-color: #FA8072;
+}
+button{
+    color: blue;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+#operation{
+    font-size: 700%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#validation {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 1em 0 1em;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#validation:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+#validation:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
